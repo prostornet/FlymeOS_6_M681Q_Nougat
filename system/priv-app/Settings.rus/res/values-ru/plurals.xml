@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mz_fp_management_count">
+        <item quantity="other">%1$d отпечатка(ов) зарегистр.</item>
+        <item quantity="one">%1$d отпечаток зарегистр.</item>
+    </plurals>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Вы сейчас в %1$d шагах от того, чтобы стать разработчиком.</item>
+        <item quantity="one">Вы сейчас в %1$d шагах от того, чтобы стать разработчиком.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">%1$d отпечатка(ов) зарегистр.</item>
+        <item quantity="one">%1$d отпечаток зарегистр.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль должен содержать буквы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну букву.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль должен содержать строчные буквы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну строчную букву.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль должен содержать заглавные буквы (не менее %d ).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну заглавную букву.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль должен содержать цифры (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы одну цифру.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль должен содержать специальные символы (не менее %d).</item>
+        <item quantity="one">Пароль должен содержать хотя бы один специальный символ.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль должен содержать небуквенные символы (не менее %d ).</item>
+        <item quantity="one">Пароль должен содержать хотя бы один небуквенный символ.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неверный PIN-код, осталось попыток: %d</item>
+        <item quantity="one">Неверный PIN-код, осталось попыток: %d. Затем вам придётся обратиться к своему оператору для разблокировки телефона.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Приложений с доступом к уведомлениям: %d</item>
+        <item quantity="one">Приложений с доступом к уведомлениям: %d</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Изменить для будильника на %1$d мин.(до %2$s)</item>
+        <item quantity="one">Изменить для будильника на 1 мин (до %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Изменить для будильника на %1$d час.(до %2$s)</item>
+        <item quantity="one">Изменить для будильника на 1 час.(до %2$s)</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d разрешения(й) предоставлены</item>
+        <item quantity="one">%d разрешение предоставлено</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d из %2$d разрешения(й) предоставлены</item>
+        <item quantity="one">%1$d из %2$d разрешения(й) предоставлены</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d дополнительные разрешения</item>
+        <item quantity="one">%d разрешение предоставлено</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d приложения могут открывать поддерживаемые ссылки</item>
+        <item quantity="one">приложение может открывать поддерживаемые ссылки</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d разрешено игнорировать оптимизацию батареи</item>
+        <item quantity="one">приложению разрешено игнорировать оптимизацию батареи</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d apps used memory in last %2$s</item>
+        <item quantity="one">1 app used memory in last %2$s</item>
+    </plurals>
+    <plurals name="data_saver_unrestricted_summary">
+        <item quantity="other">%1$d приложениям разрешено использовать неограниченные лимит данных</item>
+        <item quantity="one">приложению разрешено использовать неограниченные лимит данных</item>
+    </plurals>
+    <plurals name="notification_summary">
+        <item quantity="other">%d приложениям запрещено отправлять уведомления</item>
+        <item quantity="one">%d приложению запрещено отправлять уведомления</item>
+    </plurals>
+    <plurals name="print_settings_title">
+        <item quantity="other">%d задачи печати</item>
+        <item quantity="one">1 задача печати</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_dialog_title">
+        <item quantity="other">Доверить или удалить сертификат</item>
+        <item quantity="one">Доверить или удалить сертификат</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message_device_owner">
+        <item quantity="other">"%s have installed several certificate authorities on your device. It can monitor your device's network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</item>
+        <item quantity="one">"%s has installed a certificate authority on your device. It can monitor your device's network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_info_message">
+        <item quantity="other">"%s have installed several certificate authorities for your work profile. They can monitor your work network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</item>
+        <item quantity="one">"%s has installed a certificate authority for your work profile. It can monitor your work network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</item>
+    </plurals>
+    <plurals name="ssl_ca_cert_settings_button">
+        <item quantity="other">Проверить сертификат</item>
+        <item quantity="one">Проверить сертификат</item>
+    </plurals>
+    <plurals name="dlg_remove_locales_title">
+        <item quantity="other">Удалить все выбранные языки?</item>
+        <item quantity="one">Удалить все выбранные языки?</item>
+    </plurals>
+    <plurals name="uri_permissions_text">
+        <item quantity="other">%d разрешений</item>
+        <item quantity="one">1 разрешение</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_long_delay">
+        <item quantity="other">Длительная задержка (%1$dms)</item>
+        <item quantity="one">Длительная задержка (%1$dms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
+        <item quantity="other">Чрезвычайно короткая задержка (%1$dms)</item>
+        <item quantity="one">Чрезвычайно короткая задержка (%1$dms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_short_delay">
+        <item quantity="other">Очень короткая задержка (%1$dms)</item>
+        <item quantity="one">Очень короткая задержка (%1$dms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_very_long_delay">
+        <item quantity="other">Очень длинная задержка (%1$dms)</item>
+        <item quantity="one">Очень длинная задержка (%1$dms)</item>
+    </plurals>
+    <plurals name="accessibilty_autoclick_preference_subtitle_short_delay">
+        <item quantity="other">Задержка (%1$dms)</item>
+        <item quantity="one">Задержка (%1$dms)</item>
+    </plurals>
+</resources>

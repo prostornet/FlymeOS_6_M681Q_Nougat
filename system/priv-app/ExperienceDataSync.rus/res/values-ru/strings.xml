@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="app_name">Crash Reporter</string>
+     <string name="permdesc_readusagestats">Разрешить приложению читать данные статистики использования.</string>
+     <string name="permdesc_writeusagestats">Разрешить приложению запись данных статистики использования.</string>
+     <string name="permlab_readusagestats">Чтение данных статистики использования</string>
+     <string name="permlab_writeusagestats">Запись данных статистики использования</string>
+</resources>
