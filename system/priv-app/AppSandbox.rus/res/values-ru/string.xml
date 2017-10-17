@@ -31,6 +31,6 @@
     <string name="mzuc_update_title_s" formatted="false">%s V%s версия</string>
     <string name="mzuc_wait_tip">Пожалуйста, подождите</string>
     <string name="mzuc_warn_later">Напомнить позже</string>
-    <string name="mzuc_update_finish_format">Updated to latest version V%s</string>
+    <string name="mzuc_update_finish_format">Установлена актуальная версия V%s</string>
     <string name="app_name">AppSandbox</string>
 </resources>
