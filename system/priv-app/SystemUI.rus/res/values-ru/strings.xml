@@ -1162,7 +1162,7 @@
      <string name="notification_more_settings">Дополнительные настройки</string>
      <string name="notification_reply">Ответить</string>
      <string name="notification_tap_again">Нажмите ещё раз, чтобы открыть</string>
-     <string name="notifications_off_text">点按此处可重新启用通知功能。</string>
+     <string name="notifications_off_text">Нажмите здесь, чтобы снова включить функцию уведомления</string>
      <string name="notifications_off_title">通知功能已停用</string>
      <string name="nxp_memory_clean">%1$d MB freed up</string>
      <string name="nxp_memory_clean_nothing">Reached the best status</string>
