@@ -1163,9 +1163,9 @@
      <string name="notification_reply">Ответить</string>
      <string name="notification_tap_again">Нажмите ещё раз, чтобы открыть</string>
      <string name="notifications_off_text">Нажмите здесь, чтобы снова включить функцию уведомления</string>
-     <string name="notifications_off_title">通知功能已停用</string>
-     <string name="nxp_memory_clean">%1$d MB freed up</string>
-     <string name="nxp_memory_clean_nothing">Reached the best status</string>
+     <string name="notifications_off_title">Уведомление отключено</string>
+     <string name="nxp_memory_clean">%1$d МБ очищено</string>
+     <string name="nxp_memory_clean_nothing">Ни чего очищать не надо</string>
      <string name="oem_preferred_feedback_reporter"></string>
      <string name="oem_unlock_enable">Заводская разблокировка</string>
      <string name="oem_unlock_enable_summary">Разрешить разблокировку загрузчика ОС</string>
@@ -1392,9 +1392,8 @@
      <string name="screenshot_share_lable">Предоставить доступ</string>
      <string name="sd_accessing_swtich_user_message">Все несохраненные данные учетной записи владельца будут утеряны или повреждены.</string>
      <string name="sd_accessing_swtich_user_title">Переключить пользователя?</string>
-     <string name="searching_simcard">О
-     бнаружение...</string>
-     <string name="select_application">Select application</string>
+     <string name="searching_simcard">Обнаружение...</string>
+     <string name="select_application">Выбрать приложение</string>
      <string name="select_button">Select button to add</string>
      <string name="select_keycode">Select Keyboard Button</string>
      <string name="select_logd_size_dialog_title">Select Logger sizes per log buffer</string>
@@ -1661,13 +1660,13 @@
      <string name="wechat_shoucang">WeChat Favorites</string>
      <string name="weibo_app">Weibo</string>
      <string name="wfd_sink_summary">Используется другими</string>
-     <string name="when_night_mode_on">When Night Mode is on</string>
-     <string name="wifi_access_points">WLAN networks</string>
-     <string name="wifi_add_network">Add network</string>
-     <string name="wifi_advanced_ip_address_title">IP address</string>
-     <string name="wifi_advanced_mac_address_title">MAC address</string>
-     <string name="wifi_advanced_settings_label">IP settings</string>
-     <string name="wifi_advanced_titlebar">Advanced WLAN</string>
+     <string name="when_night_mode_on">Когда ночной режим вкл.</string>
+     <string name="wifi_access_points">Wi-Fi сеть</string>
+     <string name="wifi_add_network">Добавить сеть</string>
+     <string name="wifi_advanced_ip_address_title">IP-адрес</string>
+     <string name="wifi_advanced_mac_address_title">MAC-адрес</string>
+     <string name="wifi_advanced_settings_label">Настрока IP</string>
+     <string name="wifi_advanced_titlebar">Расширенные настройки Wi-Fi</string>
      <string name="wifi_aggressive_handover">Aggressive WLAN to Cellular handover</string>
      <string name="wifi_aggressive_handover_summary">When enabled, WLAN will be more aggressive in handing over the data connection to Cellular, when WLAN signal is low</string>
      <string name="wifi_allow_scan_with_traffic">Always allow WLAN Roam Scans</string>
