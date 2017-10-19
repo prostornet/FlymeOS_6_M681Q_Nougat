@@ -1544,7 +1544,7 @@
      <string name="tts_general_section_title">Общие</string>
      <string name="tts_install_data_summary">Установить голосовые данные, необходимые для синтеза речи</string>
      <string name="tts_install_data_title">Установка голосовых данных</string>
-     <string name="tts_lang_not_selected">Язык не выбран/string>
+     <string name="tts_lang_not_selected">Язык не выбран</string>
      <string name="tts_lang_use_system">Язык системы</string>
      <string name="tts_play_example_summary">Воспроизвести краткую демонстрацию синтезированной речи</string>
      <string name="tts_play_example_title">Прослушать пример</string>

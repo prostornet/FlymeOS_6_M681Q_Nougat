@@ -13,7 +13,7 @@
      <string name="loop_200">200</string>
      <string name="loop_50">50</string>
      <string name="loops">Loops</string>
-     <string name="msg_permission_steps">"Вы отменили разрешения,нужно изменить параметры "<b>Настройки</b> -> <b>Приложения</b> -> <i>Показать все/i> -> <b>Автодозвон</b> -> <b>Детали разрешений</b> и предоставить все разрешения</string>
+     <string name="msg_permission_steps">"Вы отменили разрешения,нужно изменить параметры "<b>Настройки</b> -> <b>Приложения</b> -> <i>Показать все</i> -> <b>Автодозвон</b> -> <b>Детали разрешений</b> и предоставить все разрешения</string>
      <string name="phone">Телефон</string>
      <string name="phone_8378911">\#8378911</string>
      <string name="phone_911">911</string>
