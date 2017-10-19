@@ -13,7 +13,7 @@ TMP_FILE1=$(mktemp)
 ##################################
 CHK_SU() {
 echo ""
-echo -e "${WHITE}. Проверка рут прав и наличие приложения Super SU:${NC}"
+echo -e "${WHITE}. Проверка рут прав:${NC}"
 echo  ""
 echo -e "Если в списке ниже вы видите ${RED}su${NC}, значит все впорядке, рут права предоставлены."
 echo ""
@@ -21,21 +21,6 @@ adb shell su c ls -1 /system/xbin
 echo -e "${WHITE}...${NC}\n"
 sh $0
 }
-###########################
-###  Install Supper SU  ###
-###########################
-#INST_SU() {
-#echo ""
-#echo -e "${WHITE}. Установка приложения Super SU:${NC}"
-#echo ""
-#adb kill-server >/dev/null 2>&1
-#adb start-server >/dev/null 2>&1
-#adb install -r files/su/SuperSU.apk >/dev/null 2>&1
-#echo -e "${RED}!!! Установка завершина !!!${NC} Перезагрузка устройства ..."
-#adb reboot
-#echo -e "${WHITE}...${NC}\n"
-#sh $0
-#}
 ###############################
 ###  Deleting chinese apps  ###
 ###############################
@@ -150,57 +135,6 @@ adb shell rm -r /data/local/tmp/TST_ID >/dev/null 2>&1
 echo -e "${WHITE}...${NC}\n"
 sh $0
 }
-#########################################################
-###  Change ID from chinese or international to beta  ###
-#########################################################
-#INT_ID() {
-#echo ""
-#echo -e "${WHITE}. Подмена ID устройства под международную прошивку:${NC}"
-#echo ""
-#adb kill-server >/dev/null 2>&1
-#adb start-server >/dev/null 2>&1
-#adb push files/dev_id/68151001 /data/local/tmp/ >/dev/null 2>&1
-#adb shell "su -c mount -o remount,rw /system" >/dev/null 2>&1
-#adb shell "su -c sh /data/local/tmp/68151001"
-#adb shell rm -r /data/local/tmp/68151001 >/dev/null 2>&1
-#adb reboot >/dev/null 2>&1
-#echo -e "${WHITE}...${NC}\n"
-#sh $0
-#}
-#########################################################
-###  Change ID from international or beta to chinese  ###
-#########################################################
-#CHN_ID() {
-#echo ""
-#echo -e "${WHITE}. Подмена ID устройства под китайскую прошивку:${NC}"
-#echo ""
-#adb kill-server >/dev/null 2>&1
-#adb start-server >/dev/null 2>&1
-#adb push files/dev_id/68101006 /data/local/tmp/ >/dev/null 2>&1
-#adb shell "su -c mount -o remount,rw /system" >/dev/null 2>&1
-#adb shell "su -c sh /data/local/tmp/68101006"
-#adb shell rm -r /data/local/tmp/68101006 >/dev/null 2>&1
-#adb reboot >/dev/null 2>&1
-#echo -e "${WHITE}...${NC}\n"
-#sh $0
-#}
-#########################################################
-###  Change ID from international or chinese to beta  ###
-#########################################################
-#CHN_ID() {
-#echo ""
-#echo -e "${WHITE}. Подмена ID устройства под китайскую прошивку:${NC}"
-#echo ""
-#adb kill-server >/dev/null 2>&1
-#adb start-server >/dev/null 2>&1
-#adb push files/dev_id/68101000 /data/local/tmp/ >/dev/null 2>&1
-#adb shell "su -c mount -o remount,rw /system" >/dev/null 2>&1
-#adb shell "su -c sh /data/local/tmp/68101000"
-#adb shell rm -r /data/local/tmp/68101000 >/dev/null 2>&1
-#adb reboot >/dev/null 2>&1
-#echo -e "${WHITE}...${NC}\n"
-#sh $0
-#}
 ################################
 ###  Install local user app  ###
 ################################
@@ -220,9 +154,9 @@ echo -e "${RED}!!! Установка приложения${NC} ${WHITE}${i}${NC
 echo -e "${WHITE}...${NC}\n"
 sh $0
 }
-##############################
-###
-##############################
+##################################
+### Uninstall apps from devices ##
+##################################
 UNINST_APP() {
 echo ""
 echo -e "${WHITE}. Удаление пользовательских приложений${NC}"
@@ -241,7 +175,6 @@ echo -e "${RED}!!! Удаление приложения${NC} ${WHITE}${i}${NC} 
 echo -e "${WHITE}...${NC}\n"
 sh $0
 }
-
 
 ############################ 
 ### Main Menu for script ### 
@@ -269,9 +202,6 @@ select CHOICES in "${ACT_1}" "${ACT_2}" "${ACT_3}" "${ACT_4}" "${ACT_5}" "${ACT_
         "${ACT_1}")
             CHK_SU
             ;;
-#        "${ACT_9}")
-#            INST_SU
-#            ;;
         "${ACT_2}")
             RMAPP_CHN
             ;;
@@ -284,15 +214,6 @@ select CHOICES in "${ACT_1}" "${ACT_2}" "${ACT_3}" "${ACT_4}" "${ACT_5}" "${ACT_
         "${ACT_5}")
             CHK_ID
             ;;
-#        "${ACT_10}")
-#            INT_ID
-#            ;;
-#        "${ACT_11}")
-#            CHN_ID
-#            ;;
-#        "${ACT_12}")
-#            BET_ID
-#            ;;
         "${ACT_6}")
             INST_APP
             ;;
