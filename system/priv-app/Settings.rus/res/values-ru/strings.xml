@@ -622,8 +622,8 @@
      <string name="bluetooth_opp_profile_summary_not_connected">Нет подключения к серверу передачи файлов</string>
      <string name="bluetooth_opp_profile_summary_use_for">Использовать для передачи файлов</string>
      <string name="bluetooth_pairing">Сопряжение...</string>
-     <string name="bluetooth_pairing_accept">Подключить</string>
-     <string name="bluetooth_pairing_accept_all_caps">ПОДКЛЮЧИТЬ</string>
+     <string name="bluetooth_pairing_accept">Сопряжено</string>
+     <string name="bluetooth_pairing_accept_all_caps">СОПРЯЖЕНО</string>
      <string name="bluetooth_pairing_decline">Отмена</string>
      <string name="bluetooth_pairing_device_down_error_message">Не удаётся установить соединение с устройством %1$s.</string>
      <string name="bluetooth_pairing_dialog_contants_request">%1$s пытается получить доступ к вашим контактам и журналу вызовов.</string>
@@ -636,7 +636,7 @@
      <string name="bluetooth_pairing_rejected_error_message">%1$s не разрешает сопряжение.</string>
      <string name="bluetooth_pairing_request">Сопряжение с Bluetooth-устройством</string>
      <string name="bluetooth_pairing_shares_phonebook">Разрешить %1$s доступ к контактам и истории вызовов</string>
-     <string name="bluetooth_pairing_will_share_phonebook">Подключение обеспечивает доступ к вашим контактам и истории вызовов (при наличии связи).</string>
+     <string name="bluetooth_pairing_will_share_phonebook">Сопряжение обеспечивает доступ к вашим контактам и истории вызовов (при наличии связи).</string>
      <string name="bluetooth_pan_nap_profile_summary_connected">Устройство работает в режиме модема</string>
      <string name="bluetooth_pan_profile_summary_use_for">Использовать для доступа в интернет</string>
      <string name="bluetooth_pan_user_profile_summary_connected">Используется интернет-подключение другого устройства</string>
@@ -4385,8 +4385,8 @@ LTE %s</string>
      <string name="user_summary_restricted_not_set_up">Не настроено – профиль с ограниченным доступом</string>
      <string name="user_summary_restricted_profile">Профиль с ограниченным доступом</string>
      <string name="user_you">Вы (%s)</string>
-     <string name="v7_preference_off">OFF</string>
-     <string name="v7_preference_on">ON</string>
+     <string name="v7_preference_off">ВЫКЛ.</string>
+     <string name="v7_preference_on">ВКЛ.</string>
      <string name="verify_apps_over_usb_summary">Проверять, насколько безопасны приложения, устанавливаемые через ADB/ADT</string>
      <string name="verify_apps_over_usb_title">Установка через USB</string>
      <string name="verify_from_create_fingeprint_tips">Please input phone password</string>
@@ -4647,7 +4647,7 @@ LTE %s</string>
      <string name="wifi_disconnect">Отключить</string>
      <string name="wifi_display_autonomous_go">Enable autonomous GO</string>
      <string name="wifi_display_certification">Сертифик. беспров. дисплея</string>
-     <string name="wifi_display_certification_heading">Certification</string>
+     <string name="wifi_display_certification_heading">Сертификация</string>
      <string name="wifi_display_certification_summary">Показывать параметры сертификации беспроводных дисплеев</string>
      <string name="wifi_display_details">Настройки экрана</string>
      <string name="wifi_display_device_not_found">Нет доступного устройства рядом</string>
@@ -4692,7 +4692,7 @@ LTE %s</string>
      <string name="wifi_failed_connect_message">Не удалось подключиться к сети</string>
      <string name="wifi_failed_forget_message">Не удалось удалить сеть</string>
      <string name="wifi_failed_save_message">Ошибка сохранения сети</string>
-     <string name="wifi_forget">Забыть</string>
+     <string name="wifi_forget">Удалить</string>
      <string name="wifi_forget_network_title">Забыть сеть</string>
      <string name="wifi_frequency">Частота</string>
      <string name="wifi_gateway">Шлюз</string>
@@ -4721,11 +4721,11 @@ LTE %s</string>
      <string name="wifi_limit_optimizations_summary">Лимит расхода батареи (Wi‑Fi)</string>
      <string name="wifi_mac">MAC-адрес</string>
      <string name="wifi_menu_advanced">Расширенные</string>
-     <string name="wifi_menu_configure">Configure</string>
+     <string name="wifi_menu_configure">Конфигурация</string>
      <string name="wifi_menu_connect">Подключиться к сети</string>
      <string name="wifi_menu_disconnect">Отключение от сети</string>
      <string name="wifi_menu_forget">Удалить эту сеть</string>
-     <string name="wifi_menu_modify">Изменить пароль</string>
+     <string name="wifi_menu_modify">Изменить сеть</string>
      <string name="wifi_menu_modify_password">Изменить пароль</string>
      <string name="wifi_menu_more_options">Другие параметры</string>
      <string name="wifi_menu_p2p">P2P</string>
@@ -4877,7 +4877,7 @@ LTE %s</string>
      <string name="wifi_signal_found_msg">Плохой сигнал текущей сети Wi-Fi, вы хотите переключиться на другую сеть?</string>
      <string name="wifi_skip_anyway">ОК</string>
      <string name="wifi_skipped_message">ВНИМАНИЕ! Если вы не настроите Wi‑Fi, для скачивания приложений и обновлений будет использоваться мобильная сеть. Чтобы избежать лишних расходов, подключитесь к Wi-Fi.</string>
-     <string name="wifi_smart_network">Smart network switch</string>
+     <string name="wifi_smart_network">Коммутирование сети</string>
      <string name="wifi_speed">Скорость</string>
      <string name="wifi_ssid">Имя</string>
      <string name="wifi_ssid_hint">Введите имя сети (SSID)</string>
@@ -4896,7 +4896,7 @@ LTE %s</string>
      <string name="wifi_suspend_efficiency_title">Сбережение энергии</string>
      <string name="wifi_suspend_optimizations">Оптимизация Wi-Fi</string>
      <string name="wifi_suspend_optimizations_summary">Экономить заряд батареи, когда используется Wi-Fi</string>
-     <string name="wifi_switch_away_when_unvalidated">Switch to cellular data if WLAN loses internet access.</string>
+     <string name="wifi_switch_away_when_unvalidated">Переключать на передачу данных при потере подключения к Интернет сетью Wi-Fi.</string>
      <string name="wifi_tether">Мобильные точки доступа</string>
      <string name="wifi_tether_auto_channel_text">Auto</string>
      <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
