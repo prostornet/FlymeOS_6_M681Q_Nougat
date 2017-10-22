@@ -11,6 +11,7 @@ com.meizu.mpay
 com.meizu.flyme.childrenlauncher
 com.android.printspooler
 com.meizu.gamecenter.service
+com.android.printservice.recommendation
 com.svox.pico
 com.meizu.voiceassistant
 com.meizu.setup
@@ -19,3 +20,4 @@ com.mediatek.lbs.em2.ui
 com.meizu.flyme.gamecenter
 com.amap.android.location
 com.meizu.media.life
+com.baidu.BaiduMap.meizu
