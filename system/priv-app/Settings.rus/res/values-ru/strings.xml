@@ -4582,7 +4582,7 @@ LTE %s</string>
      <string name="wifi_ap_blocked_title">Заблокированные пользователи</string>
      <string name="wifi_ap_choose_2G">2.4 GHz Band</string>
      <string name="wifi_ap_choose_5G">5 GHz Band</string>
-     <string name="wifi_ap_client_block_title">Заблокированные/string>
+     <string name="wifi_ap_client_block_title">Заблокированные</string>
      <string name="wifi_ap_client_details_title">Детали</string>
      <string name="wifi_ap_client_ip_label">IP-адрес:</string>
      <string name="wifi_ap_client_mac_label">MAC-адрес:</string>

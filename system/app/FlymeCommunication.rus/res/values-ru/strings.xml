@@ -273,7 +273,4 @@
     <string name="mc_pattern_hour_minute" formatted="false">%H:%M</string>
     <string name="mc_pattern_week">%a</string>
     <string name="mc_pattern_week_hour_minute" formatted="false">%a %H:%M</string>
-    <string name="mc_selectionbutton_all">Все</string>
-    <string name="mc_simple_pattern_month_day" formatted="false">%-m/%-e</string>
-    <string name="mc_simple_pattern_year_month_day" formatted="false">%Y/%-m/%-e</string>
 </resources>

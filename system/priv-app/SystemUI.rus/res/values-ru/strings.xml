@@ -896,7 +896,7 @@
      <string name="lb_playback_controls_skip_next">Следующий</string>
      <string name="lb_playback_controls_skip_previous">Предыдущий</string>
      <string name="lb_playback_controls_thumb_down">Отменить дизлайк</string>
-     <string name="lb_playback_controls_thumb_down_outline">Отправить дизлайк/string>
+     <string name="lb_playback_controls_thumb_down_outline">Отправить дизлайк</string>
      <string name="lb_playback_controls_thumb_up">Отменить лайк</string>
      <string name="lb_playback_controls_thumb_up_outline">Отправить лайк</string>
      <string name="lb_search_bar_hint">Поиск</string>
