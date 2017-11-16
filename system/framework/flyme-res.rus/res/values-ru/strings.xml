@@ -65,11 +65,11 @@
      <string name="disable">Отключить</string>
      <string name="dlg_cancel">Отмена</string>
      <string name="dlg_check_app_control_summary">Применить для разрешения %s</string>
-     <string name="dlg_check_app_control_summary_on">Функция %s%s</string>
-     <string name="dlg_check_app_message">\"%s\" разрешено: %s. Изменить конфигурацию можно в меню Настройки/Управление приложениями</string>
-     <string name="dlg_check_app_message_location">\"%s\" запрашивает разрешение на использование %s. Конфигурацию можно изменить в Настройки/Безопасность и местоположение/Местоположение</string>
-     <string name="dlg_check_app_message_off">\"%s\" запрашивает закрытие %s</string>
-     <string name="dlg_check_app_message_on">%s\" запрашивает доступ к %s.</string>
+     <string name="dlg_check_app_control_summary_on" formatted="false">Функция %s%s</string>
+     <string name="dlg_check_app_message" formatted="false">\"%s\" разрешено: %s. Изменить конфигурацию можно в меню Настройки/Управление приложениями</string>
+     <string name="dlg_check_app_message_location" formatted="false">\"%s\" запрашивает разрешение на использование %s. Конфигурацию можно изменить в Настройки/Безопасность и местоположение/Местоположение</string>
+     <string name="dlg_check_app_message_off" formatted="false">\"%s\" запрашивает закрытие %s</string>
+     <string name="dlg_check_app_message_on" formatted="false">%s\" запрашивает доступ к %s.</string>
      <string name="dlg_check_app_shortcut">%s требует создания ярлыка на главном экране:</string>
      <string name="dlg_ok">ОК</string>
      <string name="dlg_push_app_message">\"%s\" использует push-сообщения, которые могут быть небезопасны. Изменить разрешение можно в меню Настройки/Управление приложениями</string>

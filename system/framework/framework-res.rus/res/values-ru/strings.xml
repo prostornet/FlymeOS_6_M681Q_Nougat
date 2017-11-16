@@ -163,7 +163,7 @@
      <string name="bugreport_option_full_title">Полный отчет</string>
      <string name="bugreport_option_interactive_summary">Использовать это в большинстве случаев. Он позволяет отслеживать ход отчета, вводить более подробную информацию о проблеме и делать скриншоты. Возможно будут игнорированы некоторые менее выжные разделы, на которые требуется много времени для формирования отчета.</string>
      <string name="bugreport_option_interactive_title">Интерактивный отчет</string>
-     <string name="bugreport_status">%s (%s)</string>
+     <string name="bugreport_status" formatted="false">%s (%s)</string>
      <string name="bugreport_title">Отчёт об ошибке</string>
      <string name="byteShort">Б</string>
      <string name="cancel">Отмена</string>
@@ -489,8 +489,8 @@
      <string name="heavy_weight_switcher_text">Выполняется другое приложение, которое необходимо остановить перед запуском нового.</string>
      <string name="heavy_weight_switcher_title">Переключение приложений</string>
      <string name="hour">Часы</string>
-     <string name="hour_ampm">%P %-l</string>
-     <string name="hour_cap_ampm">%p %-l</string>
+     <string name="hour_ampm" formatted="false">%P %-l</string>
+     <string name="hour_cap_ampm" formatted="false">%p %-l</string>
      <string name="hour_picker_description">Выбор часов на циферблате</string>
      <string name="hours">ч</string>
      <string name="httpError">Ошибка сети.</string>
@@ -593,11 +593,11 @@
      <string name="keyguard_password_entry_touch_hint"><font size="17">Нажмите для ввода пароля</font></string>
      <string name="keyguard_password_wrong_pin_code">Неверный PIN-код.</string>
      <string name="kg_enter_confirm_pin_hint">Введите PIN-код ещё раз</string>
-     <string name="kg_failed_attempts_almost_at_login">"Вы %d раз неверно указали графический ключ.
+     <string name="kg_failed_attempts_almost_at_login" formatted="false">"Вы %d раз неверно указали графический ключ.
 После %d неудачных попыток для разблокировки телефона потребуется аккаунт эл. почты.
 
 Повтор через %d с."</string>
-     <string name="kg_failed_attempts_almost_at_wipe">Вы %d раз не смогли разблокировать телефон. После %d неудачных попыток будут восстановлены заводские настройки, что приведёт к удалению всех пользовательских данных.</string>
+     <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Вы %d раз не смогли разблокировать телефон. После %d неудачных попыток будут восстановлены заводские настройки, что приведёт к удалению всех пользовательских данных.</string>
      <string name="kg_failed_attempts_now_wiping">Вы %d раз не смогли разблокировать телефон. Будут восстановлены заводские настройки.</string>
      <string name="kg_forgot_pattern_button_text">Забыли графический ключ?</string>
      <string name="kg_invalid_confirm_pin_hint">PIN-коды не совпадают</string>
@@ -624,13 +624,13 @@
      <string name="kg_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
      <string name="kg_text_message_separator">" — "</string>
      <string name="kg_too_many_failed_attempts_countdown">Повторите попытку через %1$d с.</string>
-     <string name="kg_too_many_failed_password_attempts_dialog_message">"Вы %d раз неверно указали пароль.
+     <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали пароль.
 
 Повтор через %d с."</string>
-     <string name="kg_too_many_failed_pattern_attempts_dialog_message">"Вы %d раз неверно указали графический ключ.
+     <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали графический ключ.
 
 Повтор через %d с."</string>
-     <string name="kg_too_many_failed_pin_attempts_dialog_message">"Вы %d раз неверно указали PIN-код.
+     <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали PIN-код.
 
 Повтор через %d с."</string>
      <string name="kg_wrong_password">Неверный пароль</string>
@@ -665,8 +665,8 @@
      <string name="lockscreen_access_pattern_start">Ввод графического ключа</string>
      <string name="lockscreen_carrier_default">Нет сигнала</string>
      <string name="lockscreen_emergency_call">Экстренный вызов</string>
-     <string name="lockscreen_failed_attempts_almost_at_wipe">Вы %d раз не смогли разблокировать телефон. После %d неудачных попыток будут восстановлены заводские настройки, что приведёт к удалению всех пользовательских данных.</string>
-     <string name="lockscreen_failed_attempts_almost_glogin">"Вы %d раз неверно указали графический ключ. После %d неудачных попыток для разблокировки телефона потребуется войти в аккаунт Google.
+     <string name="lockscreen_failed_attempts_almost_at_wipe" formatted="false">Вы %d раз не смогли разблокировать телефон. После %d неудачных попыток будут восстановлены заводские настройки, что приведёт к удалению всех пользовательских данных.</string>
+     <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Вы %d раз неверно указали графический ключ. После %d неудачных попыток для разблокировки телефона потребуется войти в аккаунт Google.
 
 Повтор через %d с."</string>
      <string name="lockscreen_failed_attempts_now_wiping">Вы %d раз не смогли разблокировать телефон. Будут восстановлены заводские настройки.</string>
@@ -704,13 +704,13 @@
      <string name="lockscreen_sound_off_label">Откл. звук</string>
      <string name="lockscreen_sound_on_label">Вкл. звук</string>
      <string name="lockscreen_too_many_failed_attempts_countdown">Повтор через %d с.</string>
-     <string name="lockscreen_too_many_failed_attempts_dialog_message">"Вы %d раз неверно указали графический ключ.
+     <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали графический ключ.
 
 Повтор через %d с."</string>
-     <string name="lockscreen_too_many_failed_password_attempts_dialog_message">"Вы %d раз неверно указали пароль.
+     <string name="lockscreen_too_many_failed_password_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали пароль.
 
 Повтор через %d с."</string>
-     <string name="lockscreen_too_many_failed_pin_attempts_dialog_message">"Вы %d раз неверно указали PIN-код.
+     <string name="lockscreen_too_many_failed_pin_attempts_dialog_message" formatted="false">"Вы %d раз неверно указали PIN-код.
 
 Повтор через %d с."</string>
      <string name="lockscreen_transport_ffw_description">Перемотать вперёд</string>
@@ -838,7 +838,7 @@
      <string name="mmiFdnError">Операция возможна только для разрешённых номеров.</string>
      <string name="mobile_provisioning_apn" />
      <string name="mobile_provisioning_url" />
-     <string name="month_day_year">%-e %B %Y г.</string>
+     <string name="month_day_year" formatted="false">%-e %B %Y г.</string>
      <string name="more_item_label">Ещё</string>
      <string name="muted_by">Звук отключен приложением %1$s</string>
      <string name="needPuk">SIM-карта заблокирована PUK-кодом. Для разблокировки введите PUK-код.</string>
@@ -863,13 +863,12 @@
      <string name="notification_hidden_text">Содержание скрыто</string>
      <string name="notification_inbox_ellipsis">…</string>
      <string name="notification_listener_binding_label">Служба просмотра уведомлений</string>
-     <string name="notification_messaging_title_template">%1$s : %2$s</string>
+     <string name="notification_messaging_title_template" formatted="false">%1$s : %2$s</string>
      <string name="notification_ranker_binding_label">Служба ранжирования уведомлений</string>
      <string name="notification_title">Ошибка входа в аккаунт %1$s</string>
      <string name="notification_work_profile_content_description">Рабочий профиль</string>
-     <string name="now_string_shortest">сейчас/string>
+     <string name="now_string_shortest">сейчас</string>
      <string name="number_picker_decrement_button">Уменьшить</string>
-     <string name="number_picker_decrement_button">Decrease</string>
      <string name="number_picker_increment_button">Увеличить</string>
      <string name="number_picker_increment_scroll_action">Проведите вверх, чтобы увеличить значение, и вниз, чтобы уменьшить его.</string>
      <string name="number_picker_increment_scroll_mode">Нажмите и удерживайте %s.</string>
@@ -1328,7 +1327,7 @@
      <string name="sipAddressTypeOther">Другое</string>
      <string name="sipAddressTypeWork">Рабочий</string>
      <string name="skip_button_label">Пропустить</string>
-     <string name="sms_control_message">&lt;b>%1$s&lt;/b> отправляет большое количество SMS. Разрешить приложению и дальше отправлять сообщения?</string>
+     <string name="sms_control_message"><b>%1$s</b> отправляет большое количество SMS. Разрешить приложению и дальше отправлять сообщения?</string>
      <string name="sms_control_no">Отклонить</string>
      <string name="sms_control_title">Отправка SMS-сообщений</string>
      <string name="sms_control_yes">Разрешить</string>
@@ -1336,7 +1335,7 @@
      <string name="sms_short_code_confirm_allow">Отправить</string>
      <string name="sms_short_code_confirm_always_allow">Всегда разрешать</string>
      <string name="sms_short_code_confirm_deny">Отмена</string>
-     <string name="sms_short_code_confirm_message">&lt;b>%1$s&lt;/b> отправит сообщение на &lt;b>%2$s&lt;/b>.</string>
+     <string name="sms_short_code_confirm_message"><b>%1$s</b> отправит сообщение на <b>%2$s</b>.</string>
      <string name="sms_short_code_confirm_never_allow">Не разрешать</string>
      <string name="sms_short_code_details">Со счёта вашего мобильного телефона <b>могут быть списаны средства</b>.</string>
      <string name="sms_short_code_remember_choice">Запомнить выбор</string>
@@ -1484,7 +1483,7 @@
      <string name="vr_listener_binding_label">VR listener</string>
      <string name="wait">Подождите</string>
      <string name="wallpaper_binding_label">Обои</string>
-     <string name="web_user_agent">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 %sSafari/537.36</string>
+     <string name="web_user_agent" formatted="false">Mozilla/5.0 (Linux; U; Android %s) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 %sSafari/537.36</string>
      <string name="web_user_agent_target_content">Mobile </string>
      <string name="webpage_unresponsive">"Страница не отвечает.
 
@@ -1522,7 +1521,7 @@
      <string name="widget_default_package_name" />
      <string name="wifi_available_sign_in">Вход через WLAN</string>
      <string name="wifi_calling_off_summary">Выкл.</string>
-     <string name="wifi_connect_alert_message">Приложение %1$s запрашивает подключение к Wi-Fi %2$s</string>
+     <string name="wifi_connect_alert_message" formatted="false">Приложение %1$s запрашивает подключение к Wi-Fi %2$s</string>
      <string name="wifi_connect_alert_title">Разрешить подключение?</string>
      <string name="wifi_connect_default_application">Приложение</string>
      <string name="wifi_no_internet">Эта сеть Wi-Fi не имеет доступа в интернет</string>
@@ -1563,6 +1562,6 @@
      <string name="zen_mode_feature_name">Не беспокоить</string>
      <string name="zen_mode_forever">Бессрочно</string>
      <string name="zen_mode_forever_dnd">Пока вы не отключите "Не беспокоить"</string>
-     <string name="zen_mode_rule_name_combination">%1$s / %2$s</string>
+     <string name="zen_mode_rule_name_combination" formatted="false">%1$s / %2$s</string>
      <string name="zen_mode_until">До %1$s</string>
 </resources>
