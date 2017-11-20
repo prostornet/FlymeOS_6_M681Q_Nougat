@@ -7,3 +7,7 @@ com.jingdong.app.mall
 ctrip.android.view
 com.sina.weibo
 com.achievo.vipshop
+com.meizu.yellowpage
+com.baidu.BaiduMap.meizu
+com.meizu.datamigration
+com.meizu.feedback

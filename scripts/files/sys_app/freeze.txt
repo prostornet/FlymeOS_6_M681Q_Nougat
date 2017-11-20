@@ -3,10 +3,8 @@ com.iflytek.speechsuite
 com.meizu.mzsimcontacts
 com.meizu.net.map
 com.meizu.flyme.wallet
-com.meizu.feedback
 com.android.stk
 com.android.utk
-com.meizu.yellowpage
 com.meizu.mpay
 com.meizu.flyme.childrenlauncher
 com.android.printspooler
@@ -15,9 +13,7 @@ com.android.printservice.recommendation
 com.svox.pico
 com.meizu.voiceassistant
 com.meizu.setup
-com.meizu.datamigration
 com.mediatek.lbs.em2.ui
 com.meizu.flyme.gamecenter
 com.amap.android.location
 com.meizu.media.life
-com.baidu.BaiduMap.meizu

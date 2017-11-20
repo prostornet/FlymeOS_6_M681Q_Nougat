@@ -21,14 +21,16 @@ com.meizu.datamigration \
 ctrip.android.view \
 com.sina.weibo \
 com.achievo.vipshop \
-com.flyme.meizu.store
+com.flyme.meizu.store \
+com.baidu.BaiduMap.meizu \
+com.meizu.datamigration
 do
     cmd package list packages | grep $d >/dev/null 2>&1
     if [ $? -ne 0 ]; then
         echo "!!! Приложение $d уже удалено !!!"
         echo "---"
     else
-        echo "pm uninstall $d"
+        pm uninstall $d
         echo "!!! Удаление приложения $d !!!"
         echo "---"
     fi
@@ -40,9 +42,7 @@ com.iflytek.speechsuite \
 com.meizu.mzsimcontacts \
 com.meizu.net.map \
 com.meizu.flyme.wallet \
-com.meizu.feedback \
 com.android.stk \
-com.meizu.yellowpage \
 com.meizu.flyme.childrenlauncher \
 com.android.printspooler \
 com.meizu.gamecenter.service \
@@ -53,15 +53,14 @@ com.meizu.setup \
 com.mediatek.lbs.em2.ui \
 com.meizu.flyme.gamecenter \
 com.amap.android.location \
-com.meizu.media.life \
-com.baidu.BaiduMap.meizu
+com.meizu.media.life
 do
     cmd package list packages -e | grep $f >/dev/null 2>&1
     if [ $? -ne 0 ]; then
         echo "!!! Приложение $f уже заморожено !!!"
         echo "---"
     else
-        echo "pm disable $f"
+        pm disable $f
         echo "!!! Заморозка приложения $f !!!"
         echo "---"
     fi
@@ -69,10 +68,13 @@ done
 
 for s in /system/app/Reader \
 /system/priv-app/EBook \
-/system/MzApp/Mall
+/system/MzApp/Mall \
+/system/priv-app/Feedback \
+/system/priv-app/YellowPage
 do
-    if [ ! -d $s ]; then
-        echo "Directory $s don't exist"
+    if [ -d $s ]; then
+        rm -rf $s
+        echo "Deleting system app $s"
     fi
 done
 
