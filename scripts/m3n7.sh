@@ -24,6 +24,7 @@ PATH3=/vendor
 #################################
 # Remount system for reed|write #
 #################################
+echo "[1.] Checking ..."
 mount -o rw,remount /system
 if [ $? -ne 0 ]; then
     echo "!!! Attention !!! Unable to mount system to read|write"
@@ -33,6 +34,9 @@ fi
 ############################
 # Deleting chinese package #
 ############################
+echo " "
+echo "[2.] Deleting chinese apps ..."
+echo " "
 for ad in "${apps_del[@]}"
 do
     cmd package list packages | grep $ad >/dev/null 2>&1
@@ -47,6 +51,9 @@ done
 ###########################
 # Freezing system package #
 ###########################
+echo " "
+echo "[3.] Feezing chinese apps ..."
+echo " "
 for af in "${apps_freeze[@]}"
 do
     cmd package list packages -e | grep $af >/dev/null 2>&1
@@ -61,6 +68,9 @@ done
 ########################
 # Deleting system apps #
 ########################
+echo " "
+echo "[4.] Deleting system apps ..."
+echo " "
 for ads in "${apps_del_sys[@]}"
 do
     if [ -d $ads ]; then
@@ -72,7 +82,9 @@ done
 ##############################
 # Translate chinese firmware #
 ##############################
-echo "Step one... check folder, move and set permission"
+echo " "
+echo "[5.] Translation firmware"
+echo " "
 if [ -d /storage/emulated/0/files ]; then
     mv /storage/emulated/0/files/ $PATH1
     if [ $? -ne 0 ]; then
@@ -86,14 +98,12 @@ fi
 find $PATH1 -type f -exec chmod 644 {} \;
 find $PATH1 -type d -exec chmod 755 {} \;
 
-echo "Step two... replace existing apps"
 cp -r ${PATH1}priv-app/* ${PATH2}priv-app >/dev/null 2>&1
 cp -r ${PATH1}app/* ${PATH2}app >/dev/null 2>&1
 cp -r ${PATH1}framework/* ${PATH2}framework >/dev/null 2>&1
 cp -r ${PATH1}vendor/* ${PATH3} >/dev/null 2>&1
 cp -r ${PATH1}build.prop ${PATH2} >/dev/null 2>&1
 
-echo "Step three... clear tmp dir"
 rm -r ${PATH1}
 echo "!!! Finish translation, reboot device..."
 sleep 5
