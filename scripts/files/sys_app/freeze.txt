@@ -5,6 +5,7 @@ com.meizu.net.map
 com.meizu.flyme.wallet
 com.android.stk
 com.android.utk
+com.meizu.feedback
 com.meizu.mpay
 com.meizu.flyme.childrenlauncher
 com.android.printspooler

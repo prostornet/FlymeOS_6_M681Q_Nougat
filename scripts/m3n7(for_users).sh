@@ -24,9 +24,7 @@ fi
 ############################
 # Deleting chinese package #
 ############################
-echo " "
 echo "[2.] Deleting chinese apps ..."
-echo " "
 for ad in "${apps_del[@]}"
 do
     cmd package list packages | grep $ad >/dev/null 2>&1
@@ -39,9 +37,7 @@ done
 ###########################
 # Freezing system package #
 ###########################
-echo " "
 echo "[3.] Feezing chinese apps ..."
-echo " "
 for af in "${apps_freeze[@]}"
 do
     cmd package list packages -e | grep $af >/dev/null 2>&1
@@ -54,9 +50,7 @@ done
 ########################
 # Deleting system apps #
 ########################
-echo " "
 echo "[4.] Deleting system apps ..."
-echo " "
 for ads in "${apps_del_sys[@]}"
 do
     if [ -d $ads ]; then
@@ -68,9 +62,7 @@ done
 ##############################
 # Translate chinese firmware #
 ##############################
-echo " "
 echo "[5.] Translation firmware"
-echo " "
 if [ -d /storage/emulated/0/files ]; then
     mv /storage/emulated/0/files/ $PATH1
     if [ $? -ne 0 ]; then
