@@ -3,8 +3,8 @@
 # Arrays with packages #
 ########################
 apps_del=( com.sohu.inputmethod.sogou com.sankuai.meituan com.ss.android.article.news com.ximalaya.ting.android com.qzone com.jingdong.app.mall com.meizu.datamigration ctrip.android.view com.sina.weibo com.achievo.vipshop com.flyme.meizu.store com.baidu.BaiduMap.meizu com.meizu.datamigration )
-apps_freeze=( com.meizu.account.pay com.iflytek.speechsuite com.meizu.mzsimcontacts com.meizu.net.map com.meizu.flyme.wallet com.android.stk com.meizu.flyme.childrenlauncher com.android.printspooler com.meizu.gamecenter.service com.android.printservice.recommendation com.svox.pico com.meizu.voiceassistant com.meizu.setup com.mediatek.lbs.em2.ui com.meizu.flyme.gamecenter com.amap.android.location com.meizu.media.life )
-apps_del_sys=( /system/app/Reader /system/priv-app/EBook /system/MzApp/Mall /system/priv-app/Feedback /system/priv-app/YellowPage )
+apps_freeze=( com.meizu.account.pay com.iflytek.speechsuite com.meizu.mzsimcontacts com.meizu.net.map com.meizu.flyme.wallet com.android.stk com.meizu.flyme.childrenlauncher com.android.printspooler com.meizu.gamecenter.service com.android.printservice.recommendation com.svox.pico com.meizu.voiceassistant com.meizu.setup com.mediatek.lbs.em2.ui com.meizu.flyme.gamecenter com.amap.android.location com.meizu.media.life com.meizu.feedback )
+apps_del_sys=( /system/app/Reader /system/priv-app/EBook /system/MzApp/Mall /system/priv-app/YellowPage )
 #################
 # Set main path #
 #################
@@ -30,7 +30,7 @@ do
     cmd package list packages | grep $ad >/dev/null 2>&1
     if [ $? -eq 0 ]; then
         pm uninstall $ad
-        echo "!!.d.!! Deleting app $ad ..."
+        echo "[.d.] Deleting app $ad ..."
     fi
 done
 
@@ -43,7 +43,7 @@ do
     cmd package list packages -e | grep $af >/dev/null 2>&1
     if [ $? -eq 0 ]; then
         pm disable $af
-        echo "!!.f.!! Freezing app $af ..."
+        echo "[.f.] Freezing app $af ..."
     fi
 done
 
@@ -55,7 +55,7 @@ for ads in "${apps_del_sys[@]}"
 do
     if [ -d $ads ]; then
         rm -rf $ads
-        echo "!!.d.!! Deleting system app $ads"
+        echo "[.d.] Deleting system app $ads"
     fi
 done
 
@@ -66,11 +66,11 @@ echo "[5.] Translation firmware"
 if [ -d /storage/emulated/0/files ]; then
     mv /storage/emulated/0/files/ $PATH1
     if [ $? -ne 0 ]; then
-        echo "!!! Attention !!! Unable to move files"
+        echo "[.!.] Attention. Unable to move files"
         exit 0
     fi
 else
-    echo "!!! Attention !!! No folder files on sdcard"
+    echo "[.!.] Attention.  No folder files on sdcard"
     exit 0
 fi
 find $PATH1 -type f -exec chmod 644 {} \;
@@ -83,7 +83,7 @@ cp -r ${PATH1}vendor/* ${PATH3} >/dev/null 2>&1
 cp -r ${PATH1}build.prop ${PATH2} >/dev/null 2>&1
 
 rm -r ${PATH1}
-echo "!!! Finish translation, reboot device..."
+echo "[.!.] Finish translation, reboot device..."
 sleep 5
 reboot
 
