@@ -2797,7 +2797,7 @@ Wednesday Dec 14 10:10:07 UTC 2016"</string>
      <string name="ota_disable_automatic_update">Автоматическое обновление системы</string>
      <string name="other_account">Другие аккаунты</string>
      <string name="other_app_view">Другие приложения</string>
-     <string name="other_longpress_feedback_enable_summary">Вибрация при коротком и длинном нажатии на клавиатуре/номеонабирателе</string>
+     <string name="other_longpress_feedback_enable_summary">Вибрация при коротком и длинном нажатии на клавиатуре/номеронабирателе</string>
      <string name="other_longpress_feedback_enable_title">Тактильная обратная связь</string>
      <string name="other_music_dir">Другая музыка</string>
      <string name="other_sound_settings">Другие звуки</string>
