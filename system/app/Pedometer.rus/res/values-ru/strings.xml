@@ -220,7 +220,7 @@
     <string name="hert_test_aging">Измерить еще раз</string>
     <string name="hint_press_finger">Поместите палец на кнопку «Домой», чтобы начать измерение</string>
     <string name="intent_handle">обработка данных</string>
-    <string name="kilometer">Километров</string>
+    <string name="kilometer">километров</string>
     <string name="lcanler_list_title_every_day">В среднем шагов в день</string>
     <string name="lcanler_list_title_every_month">Ежемесячно шагов</string>
     <string name="lcanler_list_title_every_week">Еженедельно шагов</string>
