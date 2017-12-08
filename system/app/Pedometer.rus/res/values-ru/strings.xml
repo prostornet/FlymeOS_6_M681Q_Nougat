@@ -287,7 +287,6 @@
     <string name="personal_year_title">Возраст</string>
     <string name="scope_null_token">ошибка получения токена аутентификации: %s</string>
     <string name="settings_nofify">Получать уведомления</string>
-    <string name="settings_nofify_sum">Получать уведомления о событиях</string>
     <string name="settings_nofify_sum">Получение уведомлений о событии</string>
     <string name="settings_update_name">Проверить обновления</string>
     <string name="share_bluetouch">Bluetooth</string>
