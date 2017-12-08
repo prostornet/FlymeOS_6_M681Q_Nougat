@@ -32,13 +32,13 @@
     <string name="mc_collected_message">Статус избранного</string>
     <string name="mc_custom_date_time_gregorian">Григорианский</string>
     <string name="mc_custom_date_time_lunar">Лунный</string>
-    <string name="mc_date_time_day">" д. "</string>
+    <string name="mc_date_time_day">" день "</string>
     <string name="mc_date_time_hour">" ч. "</string>
     <string name="mc_date_time_min">" м. "</string>
-    <string name="mc_date_time_month">" м. "</string>
+    <string name="mc_date_time_month">" мес. "</string>
     <string name="mc_date_time_sec">" с. "</string>
     <string name="mc_date_time_set">Установить</string>
-    <string name="mc_date_time_year">"	г. "</string>
+    <string name="mc_date_time_year">" год "</string>
     <string name="mc_description_target_answer">Ответ</string>
     <string name="mc_description_target_decline">Отклонить</string>
     <string name="mc_disable">Отключить</string>
