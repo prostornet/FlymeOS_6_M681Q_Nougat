@@ -864,7 +864,7 @@
      <string name="choose_spell_checker">Проверка орфографии</string>
      <string name="choose_timezone">Выбрать часовой пояс</string>
      <string name="choose_voice_input_title">Голосовой ввод</string>
-     <string name="classic_mode">Классический режим Flyme</string>
+     <string name="classic_mode">Классический режим "Flyme"</string>
      <string name="classic_mode_browser">Браузер</string>
      <string name="classic_mode_calendar">Календарь</string>
      <string name="classic_mode_classic_big_icon">Классические крупные значки</string>
@@ -3493,7 +3493,7 @@ Wednesday Dec 14 10:10:07 UTC 2016"</string>
      <string name="service_details">Детали</string>
      <string name="service_evaluation">Комментарий</string>
      <string name="service_foreground_processes">%1$s используется</string>
-     <string name="service_info">История</string>
+     <string name="service_info">Сервисная информация</string>
      <string name="service_loading">Загрузка информации</string>
      <string name="service_manage">Настройки</string>
      <string name="service_manage_description">%1$s: в настоящий момент используется. Нажмите \"Настройки\" для управления.</string>
