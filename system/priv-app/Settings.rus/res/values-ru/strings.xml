@@ -864,7 +864,7 @@
      <string name="choose_spell_checker">Проверка орфографии</string>
      <string name="choose_timezone">Выбрать часовой пояс</string>
      <string name="choose_voice_input_title">Голосовой ввод</string>
-     <string name="classic_mode">Классический режим "Flyme"</string>
+     <string name="classic_mode">Классический режим \"Flyme\"</string>
      <string name="classic_mode_browser">Браузер</string>
      <string name="classic_mode_calendar">Календарь</string>
      <string name="classic_mode_classic_big_icon">Классические крупные значки</string>
@@ -876,7 +876,7 @@
      <string name="classic_mode_phone">Телефон</string>
      <string name="classic_mode_sms">Сообщения</string>
      <string name="classic_mode_standard_icon">Стандартные значки</string>
-     <string name="classic_mode_summary">Если эта функция включена, значки на главном экране и расположение приложений переключатся в классический режим Flyme</string>
+     <string name="classic_mode_summary">Если эта функция включена, значки на главном экране и расположение приложений переключатся в классический режим "Flyme"</string>
      <string name="classic_mode_type_classic">Классический режим</string>
      <string name="classic_mode_type_standard">Стандартный режим</string>
      <string name="clean_options">Варианты очистки памяти</string>
