@@ -261,7 +261,7 @@
     <string name="na_diagn_net_connect">Сеть, подключение:</string>
     <string name="na_diagn_net_connect_fail">Сбой сетевого подключения</string>
     <string name="na_diagn_network_advice">Рекомендации</string>
-    <string name="na_diagn_network_connectivity">Сетевое подключение</string>
+    <string name="na_diagn_network_connectivity">Сеть, подключение:</string>
     <string name="na_diagn_network_latency">Задержка сети:</string>
     <string name="na_diagn_network_name">Имя сети</string>
     <string name="na_diagn_not_exist">Не существует</string>
