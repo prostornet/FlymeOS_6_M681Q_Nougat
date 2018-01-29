@@ -1008,8 +1008,8 @@
     <string name="wifi_netmask">Маска сети</string>
     <string name="wifi_network_connected_info">О сети</string>
     <string name="Wifi_network_diagnostics_summary">Диагностика сетей Wi-Fi</string>
-    <string name="Wifi_network_diagnostics_title">Диагностика Wi-Fi</string>
-    <string name="wifi_network_diagn">Диагностика Wi-Fi</string>
+    <string name="Wifi_network_diagnostics_title">Тест сети</string>
+    <string name="wifi_network_diagn">Тест сети</string>
     <string name="wifi_network_prefix_length">Длина префикса сети</string>
     <string name="wifi_noinstall_cert">Сертификат не установлен</string>
     <string name="wifi_no_internet">Подключение к Интернету отсутствует и не будет восстановлено автоматически.</string>
@@ -1048,7 +1048,7 @@
     <string name="wifi_scan_notify_remember_choice">Больше не показывать</string>
     <string name="wifi_scan_notify_text_location_off">Приложения могут выполнять поиск сетей поблизости, даже если сеть Wi-Fi отключена. Чтобы изменить эти настройки, перейдите в меню \"Расширенные\" > \"Всегда искать сети\".</string>
     <string name="wifi_scan_notify_text_location_on">Чтобы точнее определять местоположение, а также и в других целях, приложение Google и другие приложения могут искать доступные сети даже при отключённом Wi-Fi. Изменить настройки можно в меню \"Расширенные\" > \"Всегда искать сети\".</string>
-    <string name="wifi_security_detecting">Обнаружение</string>
+    <string name="wifi_security_detecting">Тестирование</string>
     <string name="wifi_security_none">Нет</string>
     <string name="wifi_security_wapi_certificate">WAPI Сертификат</string>
     <string name="wifi_security_wapi_cert">WAPI CERT</string>
