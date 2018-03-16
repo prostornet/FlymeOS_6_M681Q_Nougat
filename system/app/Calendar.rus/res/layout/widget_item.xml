@@ -3,6 +3,7 @@
 	android:gravity="center_vertical" 
 	android:orientation="horizontal" 
 	android:id="@id/widget_row" 
+	android:background="@drawable/border1"
 	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content" 
 	android:baselineAligned="false" 
@@ -11,46 +12,37 @@
 	android:paddingEnd="@dimen/list_content_padding_right"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <LinearLayout 
-	android:gravity="start|center" 
-	android:orientation="vertical" 
+	android:gravity="left" 
+	android:orientation="horizontal" 
 	android:layout_width="wrap_content" 
-	android:layout_height="wrap_content" 
-	android:maxWidth="74.0dip" 
-	android:minWidth="58.0dip" 
-	android:minHeight="30.0dip">
+	android:layout_height="wrap_content">
         <TextView 
 		android:textAppearance="@style/DINPro_medium_style" 
-		android:textSize="16.0sp" 
+		android:textSize="12.0sp" 
 		android:textColor="@color/appwidget_time" 
-		android:gravity="center_horizontal" 
-		android:layout_gravity="center_horizontal" 
+		android:layout_gravity="center" 
 		android:id="@id/when_time" 
 		android:fadingEdgeLength="0.0dip" 
-		android:layout_width="wrap_content" 
+		android:layout_width="33.0dip" 
 		android:layout_height="wrap_content" 
 		android:includeFontPadding="false" />
-        <TextView 
-		android:textAppearance="@style/DINPro_medium_style" 
-		android:textSize="16.0sp" 
-		android:textColor="@color/appwidget_when" 
-		android:gravity="center_horizontal" 
-		android:layout_gravity="center_horizontal" 
-		android:id="@id/when_date" 
-		android:visibility="gone" 
-		android:layout_width="wrap_content" 
-		android:layout_height="wrap_content" 
-		android:includeFontPadding="false" />
+		<ImageView 
+		android:background="#afffffff"
+		android:layout_gravity="center"		
+		android:layout_width="1.0sp" 
+		android:layout_height="10.0dip" />
     </LinearLayout>
     <LinearLayout 
-	android:layout_gravity="center_vertical" 
+	android:layout_gravity="center|left" 
 	android:orientation="vertical" 
-	android:layout_width="fill_parent" 
+	android:layout_width="200.0dip" 
 	android:layout_height="wrap_content" 
 	android:layout_marginStart="8.0dip">
         <TextView 
 		android:textAppearance="@style/chinese_text_style" 
 		android:textSize="16.0sp" 
 		android:textColor="@color/appwidget_title_m" 
+		android:paddingLeft="10.0dip"  
 		android:ellipsize="end" 
 		android:id="@id/title" 
 		android:layout_width="wrap_content" 
@@ -65,5 +57,28 @@
 		android:layout_width="wrap_content" 
 		android:layout_height="wrap_content" 
 		android:singleLine="true" />
+    </LinearLayout>
+	<LinearLayout 
+	android:gravity="left" 
+	android:orientation="horizontal" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"  
+	android:minHeight="30.0dip">
+		<ImageView 
+		android:background="#afffffff"
+		android:layout_gravity="center"		
+		android:layout_width="1.0sp" 
+		android:layout_height="10.0dip" />
+        <TextView 
+		android:textAppearance="@style/DINPro_medium_style" 
+		android:textSize="12.0sp" 
+		android:textColor="@color/appwidget_when" 
+		android:paddingLeft="5dp"
+		android:layout_gravity="center" 
+		android:id="@id/when_date" 
+		android:visibility="gone" 
+		android:layout_width="45.0dip" 
+		android:layout_height="wrap_content" 
+		android:includeFontPadding="false" />
     </LinearLayout>
 </LinearLayout>
