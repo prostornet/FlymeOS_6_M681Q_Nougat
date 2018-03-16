@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:orientation="vertical" 
+	android:id="@id/root" 
+	android:background="@drawable/border1" 
+	android:paddingTop="15.0dip" 
+	android:paddingBottom="3.0dip" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:minHeight="62.0dip" 
+	android:paddingStart="15.0dip" android:paddingEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+        <TextView android:textSize="@dimen/widget_date_text_size" android:textColor="@color/widget_date_text_color" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="@dimen/widget_date_text_size" android:textColor="@color/widget_date_text_color" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/record" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_record_icon" android:layout_marginStart="8.0dip" android:layout_marginEnd="2.0dip" />
+        <ImageView android:id="@id/image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_img_icon" android:layout_marginStart="8.0dip" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <ImageView android:id="@id/remind_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/widget_remind_icon" android:layout_marginEnd="6.0dip" />
+        <TextView android:textSize="@dimen/widget_remind_text_size" android:textColor="@color/widget_remind_text_color" android:id="@id/remind" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/weather_plate" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/search_layout" android:background="@drawable/mz_launch_widget_search_bg" android:layout_width="fill_parent" android:layout_height="65.0dip">
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/widget_right_layout" android:layout_width="100.0dip" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true">
+                <ImageView android:id="@id/week_img" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_week_na" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/blue_text_50" android:layout_gravity="center_vertical" android:id="@id/widget_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="- -" android:includeFontPadding="false" android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/widget_left_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_toStartOf="@id/widget_right_layout" android:layout_alignParentStart="true">
+            <ImageView android:id="@id/search_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/mz_launch_widget_ic_search" android:layout_centerVertical="true" android:layout_marginStart="11.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/black_alpha_40" android:ellipsize="end" android:id="@id/hot_key_word_text" android:layout_width="190.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_toRightOf="@id/search_icon" android:layout_centerVertical="true" android:fontFamily="sans-serif-medium" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

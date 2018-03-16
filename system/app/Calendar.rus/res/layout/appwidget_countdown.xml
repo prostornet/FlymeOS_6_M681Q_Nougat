@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/app_widget_container" android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="57.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/countdown_add" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/bg_widget_add" android:scaleType="center" android:layout_marginStart="2.0dip" />
+    <FrameLayout android:layout_gravity="start|center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="2.0dip">
+        <LinearLayout android:id="@id/no_countdown" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/chinese_text_style" android:textSize="16.0sp" android:id="@id/add_countdown_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_add_countdown" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/countdown_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0sp" android:textColor="@color/text_color_mwhite" android:ellipsize="middle" android:id="@id/countdown_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="距离高考还有" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/countdown_date" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/DINPro_medium_style" android:textSize="18.0sp" android:textColor="#afffffff" android:id="@id/countdown_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="180" />
+                <TextView android:textAppearance="@style/chinese_text_style" android:textSize="14.0sp" android:textColor="#afffffff" android:layout_gravity="center_vertical" android:id="@id/countdown_day" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/countdown_left_unit" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/countdown_op" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="2.0dip">
+        <ImageView android:enabled="false" android:id="@id/countdown_pre" android:padding="12.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/countdown_last" android:scaleType="center" />
+        <ImageView android:id="@id/countdown_next" android:padding="12.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/countdown_next" android:scaleType="center" />
+    </LinearLayout>
+</LinearLayout>

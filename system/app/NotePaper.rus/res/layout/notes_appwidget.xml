@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:orientation="vertical" 
+	android:background="@drawable/border2" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+	android:gravity="center_vertical" 
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent" 
+	android:layout_height="42.0dip">
+        <ImageView 
+		android:id="@id/add" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/widget_add" 
+		android:contentDescription="@string/new_note2" 
+		android:layout_marginStart="15.0dip" 
+		android:layout_marginEnd="10.0dip" />
+        <TextView 
+		android:textSize="@dimen/widget_new_text_size" 
+		android:textColor="@color/widget_text_color" 
+		android:id="@id/new_note" 
+		android:clickable="false" 
+		android:layout_width="0.0dip" 
+		android:layout_height="wrap_content" 
+		android:text="@string/new_note" 
+		android:singleLine="true" 
+		android:includeFontPadding="false" 
+		android:layout_weight="1.0" 
+		android:fontFamily="sans-serif-medium" />
+        <ImageView 
+		android:background="@drawable/widget_title_divider_white" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_marginEnd="19.0dip" />
+        <ImageView 
+		android:id="@id/record" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/widget_record" 
+		android:contentDescription="@string/new_note_record" 
+		android:layout_marginEnd="10.0dip" />
+        <ImageView 
+		android:id="@id/camera" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:src="@drawable/widget_photo" 
+		android:contentDescription="@string/new_note_photo" 
+		android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <ImageView 
+	android:background="@color/widget_divider_color_pnet" 
+	android:layout_width="fill_parent" 
+	android:layout_height="1.0dip" 
+	android:layout_marginStart="8.0dip"
+	android:layout_marginEnd="8.0dip" />
+    <LinearLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+        <ListView 
+		android:scrollbarThumbVertical="@drawable/mz_scrollbar_handle_vertical" 
+		android:scrollbarStyle="outsideOverlay" 
+		android:id="@id/listview" 
+		android:fadingEdge="none" 
+		android:clipToPadding="false" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent" />
+        <LinearLayout 
+		android:gravity="center" 
+		android:orientation="vertical" 
+		android:id="@id/empty_view" 
+		android:visibility="gone" 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent">
+            <TextView 
+			android:textSize="16.0sp" 
+			android:textColor="#aaffffff" 
+			android:gravity="center" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="@string/no_note" 
+			android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
