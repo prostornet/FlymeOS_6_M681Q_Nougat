@@ -433,4 +433,12 @@
      <string name="wifi_share_start">Передано</string>
      <string name="wifi_share_stop">Остановить Wi-Fi-передачу</string>
      <string name="wlan">Сеть Wi-Fi</string>
+    <string name="mz_wifi_notify_button">Отклонить</string>
+    <string name="mz_wifi_available_sign_in">Не удалось подключиться к сети. Пожалуйста, залогиньтесь.</string>
+    <string name="do_not_disturb_mode_title">DND режим</string>
+    <string name="confirm_access_password_tip_for_lockscreen">">Пожалуйста введи пароль"</string>
+    <string name="rom_protector_str1">Отклонить</string>
+    <string name="rom_protector_str2">Просмотреть руководство по прошивке телефона</string>
+    <string name="rom_protector_str3">Обратиться в службу поддержки</string>
+    <string name="rom_protector_str4">"Ваша система модифицирована и дальнейшее ее использование приведедт к рискам безопасности. Обратитесь в службу поддержки клиентов или загрузите последнюю версию прошивки, следуя руководству по телефону, на официальном сайте Meizu."</string>
 </resources>

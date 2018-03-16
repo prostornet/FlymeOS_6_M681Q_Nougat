@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/border" android:layout_width="fill_parent" android:layout_height="@dimen/widget_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+	android:orientation="horizontal" 
+	android:id="@id/data_group" 
+	android:layout_width="fill_parent" 
+	android:layout_height="@dimen/widget_height">
+        <RelativeLayout 
+		android:layout_width="0.0dip" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="1.0">
+            <ImageView 
+			android:id="@id/widget_walk" 
+			android:layout_width="@dimen/widget_pic_size" 
+			android:layout_height="@dimen/widget_pic_size" 
+			android:layout_marginLeft="@dimen/walk_left" 
+			android:layout_marginTop="@dimen/widget_pic_top" 
+			android:src="@drawable/widget_walk" 
+			android:layout_alignParentLeft="true" />
+            <LinearLayout 
+			android:orientation="vertical" 
+			android:id="@id/step_group" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="@dimen/step_left" 
+			android:layout_marginTop="@dimen/widget_text_top" 
+			android:layout_toRightOf="@id/widget_walk">
+                <TextView 
+				android:textSize="@dimen/widget_small_text_size" 
+				android:textColor="@color/widget_small_text_color" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:text="@string/steps" />
+                <TextView 
+				android:textSize="@dimen/widget_text_size" 
+				android:textStyle="bold" 
+				android:textColor="@color/widget_text_color" 
+				android:id="@id/widget_step" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:layout_marginTop="@dimen/widget_num_top" 
+				android:text="@string/empty_data" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout 
+		android:id="@id/energy_group" 
+		android:layout_width="0.0dip" 
+		android:layout_height="fill_parent" 
+		android:layout_weight="1.0">
+            <RelativeLayout 
+			android:layout_width="0.0dip" 
+			android:layout_height="fill_parent" 
+			android:layout_weight="1.0">
+                <ImageView 
+				android:id="@id/pic_energy" 
+				android:layout_width="@dimen/widget_pic_size" 
+				android:layout_height="@dimen/widget_pic_size" 
+				android:layout_marginLeft="@dimen/step_left" 
+				android:layout_marginTop="@dimen/widget_pic_top" 
+				android:src="@drawable/widget_energy" 
+				android:layout_alignParentLeft="true" />
+                <LinearLayout 
+				android:orientation="vertical" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:layout_marginLeft="@dimen/step_left" 
+				android:layout_marginTop="@dimen/widget_text_top" 
+				android:layout_toRightOf="@id/pic_energy">
+                    <TextView 
+					android:textSize="@dimen/widget_small_text_size" 
+					android:textColor="@color/widget_small_text_color" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:text="@string/cost_calory" />
+                    <TextView 
+					android:textSize="@dimen/widget_text_size" 
+					android:textStyle="bold" 
+					android:textColor="@color/widget_text_color" 
+					android:id="@id/widget_calory" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:layout_marginTop="@dimen/widget_num_top" 
+					android:text="@string/empty_data" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView 
+	android:textSize="@dimen/widget_text_size" 
+	android:textColor="@color/widget_text_color" 
+	android:gravity="left" 
+	android:id="@id/disabled" 
+	android:visibility="invisible" 
+	android:layout_width="@dimen/widget_width" 
+	android:layout_height="@dimen/widget_height" 
+	android:layout_marginLeft="@dimen/widget_disable_left" 
+	android:layout_marginTop="@dimen/widget_pic_top" 
+	android:text="@string/pedo_disabled" />
+</FrameLayout>
